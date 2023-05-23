@@ -4,8 +4,6 @@ import { Button } from "react-bootstrap";
 import StarIcon from '@mui/icons-material/Star';
 
 
-// here item and setItema propsa parametera thanthuden
-
 export default function CardDesign (props) {
     const [card, setCard] = useState(cardDatas);
     // const [item, setItems] = useState(0)
@@ -31,11 +29,7 @@ export default function CardDesign (props) {
              idx = {idx}
              setCard = {setCard}
             //  setItems = {setItems}
-             
-            //Card designkullathan ipo propsa vangiruken. so card detailslathan yenoda button iruku. so CardDetails card designkulla iruku. 
-            // so card designla iruka propsa again card deatailsku send pananum. so again card details kulla here another variable name thanthu propsa pass panren
-
-
+         
             count1 = {props.count}
             setCount1 = {props.setCount}
               
@@ -55,9 +49,6 @@ export default function CardDesign (props) {
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-//rendering each card seperately:
-
-// here carddeatils (parameter) parameterkulla count1 and setcount1 nu pass paniyachu bcz props valueva card designla vangi count1, setCount1 intha namelathan save pani vechuruken
 
  function  CardDetails ({setCard, id, badge, src, itemName,stars, Rate,  actualRate,  discountRate, idx, count1, setCount1 }) {
 
