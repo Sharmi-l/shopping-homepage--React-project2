@@ -57,8 +57,7 @@ export default function NavBar() {
       <Heading/>
 
       {/* Card Design */}
-      {/* Card Designkullathan nan propsa ah item ah athavthu intial count0 ngaratha send pananum so here card design kulla pass pana pora variable nameah store panikitean */}
-      
+     
       < CardDesign 
       
       count = {item}
